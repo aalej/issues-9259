@@ -104,6 +104,7 @@ Error: Data Connect emulator: undefined
 It seems like importing also breaks when downgrading `firebase-tools`
 
 On `firebase-tools` v14.8.0, running `firebase emulators:start --project demo-project --import ./emulator-data_14.18.0/` works without any issues
+
 On `firbease-tools` v14.7.0, running `firebase emulators:start --project demo-project --import ./emulator-data_14.18.0/` error is raised
 
 ```
@@ -140,9 +141,5 @@ i hub: Stopping emulator hub
 i emulators: Shutting down emulators.
 
 Error: Data Connect emulator: undefined
-
-```
-
-```
 
 ```
