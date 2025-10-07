@@ -1,0 +1,30 @@
+# This is a file for you to write an un-named mutation.
+# Only one un-named mutation is allowed per file.
+
+mutation InsertMovie0 {
+  movie_insert(
+    data: {
+      id: "11111111222233334444555555555555"
+      description: ""
+      genre: ""
+      rating: 0
+      releaseYear: 0
+      tags: [""]
+      title: "emulator-movie-0"
+    }
+  )
+}
+
+mutation InsertMovie1 {
+  movie_insert(
+    data: {
+      id: "11111111222233334444555555555556"
+      description: ""
+      genre: ""
+      rating: 0
+      releaseYear: 0
+      tags: [""]
+      title: "emulator-movie-1"
+    }
+  )
+}

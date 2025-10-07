@@ -1,0 +1,6 @@
+query ListEverything @auth(level: PUBLIC) {
+    movies {
+        id,
+        title
+    }
+}
